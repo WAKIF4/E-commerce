@@ -1,0 +1,30 @@
+.signup__image--container {
+    background-image: url(https://img.freepik.com/photos-gratuite/pinceau-maquillage-eclaboussure-poudre-couleur-peche_23-2148208960.jpg?size=626&ext=jpg&uid=R93955729&ga=GA1.2.933324358.1676841351&semt=sph);
+    height: 100vh;
+    background-size: cover;
+}
+
+.signup__form--container,
+.login__form--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login__image--container {
+    background-image: url(https://img.freepik.com/photos-gratuite/mise-plat-differentes-nuances-baume-levres_23-2149518395.jpg?w=360&t=st=1679081646~exp=1679082246~hmac=bdc523e5734d75bbad785884885a8e753dae8fdb9e2c857ab80b51c57fcf37b7);
+    height: 100vh;
+    background-size: cover;
+}
+
+@media screen and (max-width: 756px) {
+    .login__image--container,
+    .signup__image--container {
+        display: none;
+    }
+}
+
+/* home https://res.cloudinary.com/learn-code-10/image/upload/v1653947013/yqajnhqf7usk56zkwqi5.png */
+/* https://res.cloudinary.com/learn-code-10/image/upload/v1654093280/xkia6f13xxlk5xvvb5ed.png sale */
